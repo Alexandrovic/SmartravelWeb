@@ -1,0 +1,7 @@
+parameters:
+#    travel_annonce.example.class: Travel\AnnonceBundle\Example
+
+services:
+#    travel_annonce.example:
+#        class: %travel_annonce.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

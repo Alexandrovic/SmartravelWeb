@@ -1,0 +1,4 @@
+travel_annonce:
+    resource: "@TravelAnnonceBundle/Resources/config/routing.yml"
+    prefix:   /
+
