@@ -16,6 +16,7 @@
       <parameter key="AsseticBundle">Symfony\Bundle\AsseticBundle\AsseticBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
+      <parameter key="TravelAnnonceBundle">Travel\AnnonceBundle\TravelAnnonceBundle</parameter>
       <parameter key="AcmeDemoBundle">Acme\DemoBundle\AcmeDemoBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -2712,6 +2713,10 @@
       <call method="addPath">
         <argument>C:\wamp\www\SmartravelWeb\vendor\doctrine\doctrine-bundle\Doctrine\Bundle\DoctrineBundle/Resources/views</argument>
         <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\wamp\www\SmartravelWeb\src\Travel\AnnonceBundle/Resources/views</argument>
+        <argument>TravelAnnonce</argument>
       </call>
       <call method="addPath">
         <argument>C:\wamp\www\SmartravelWeb\src\Acme\DemoBundle/Resources/views</argument>
