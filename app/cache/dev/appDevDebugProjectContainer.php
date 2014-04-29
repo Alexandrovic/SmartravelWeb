@@ -590,7 +590,7 @@ class appDevDebugProjectContainer extends Container
         $b = new \Doctrine\DBAL\Configuration();
         $b->setSQLLogger($a);
 
-        return $this->services['doctrine.dbal.default_connection'] = $this->get('doctrine.dbal.connection_factory')->createConnection(array('driver' => 'pdo_mysql', 'host' => '127.0.0.1', 'port' => NULL, 'dbname' => 'symfony', 'user' => 'root', 'password' => NULL, 'charset' => 'UTF8', 'driverOptions' => array()), $b, new \Symfony\Bridge\Doctrine\ContainerAwareEventManager($this), array());
+        return $this->services['doctrine.dbal.default_connection'] = $this->get('doctrine.dbal.connection_factory')->createConnection(array('driver' => 'pdo_mysql', 'host' => '127.0.0.1', 'port' => NULL, 'dbname' => 'smartravel', 'user' => 'root', 'password' => NULL, 'charset' => 'UTF8', 'driverOptions' => array()), $b, new \Symfony\Bridge\Doctrine\ContainerAwareEventManager($this), array('enum' => 'string'));
     }
 
     /**
@@ -612,20 +612,26 @@ class appDevDebugProjectContainer extends Container
         $c = new \Doctrine\Common\Cache\ArrayCache();
         $c->setNamespace('sf2orm_default_5647f4c8aa0d3522e76b879119f6128f85e0667a0ab1bf74078a289f9ff0095a');
 
-        $d = new \Doctrine\ORM\Configuration();
-        $d->setEntityNamespaces(array());
-        $d->setMetadataCacheImpl($a);
-        $d->setQueryCacheImpl($b);
-        $d->setResultCacheImpl($c);
-        $d->setMetadataDriverImpl(new \Doctrine\ORM\Mapping\Driver\DriverChain());
-        $d->setProxyDir('C:/wamp/www/SmartravelWeb/app/cache/dev/doctrine/orm/Proxies');
-        $d->setProxyNamespace('Proxies');
-        $d->setAutoGenerateProxyClasses(true);
-        $d->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
-        $d->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
-        $d->setNamingStrategy(new \Doctrine\ORM\Mapping\DefaultNamingStrategy());
+        $d = new \Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver(array('C:\\wamp\\www\\SmartravelWeb\\src\\Travel\\AnnonceBundle\\Resources\\config\\doctrine' => 'Travel\\AnnonceBundle\\Entity'));
+        $d->setGlobalBasename('mapping');
 
-        $this->services['doctrine.orm.default_entity_manager'] = $instance = call_user_func(array('Doctrine\\ORM\\EntityManager', 'create'), $this->get('doctrine.dbal.default_connection'), $d);
+        $e = new \Doctrine\ORM\Mapping\Driver\DriverChain();
+        $e->addDriver($d, 'Travel\\AnnonceBundle\\Entity');
+
+        $f = new \Doctrine\ORM\Configuration();
+        $f->setEntityNamespaces(array('TravelAnnonceBundle' => 'Travel\\AnnonceBundle\\Entity'));
+        $f->setMetadataCacheImpl($a);
+        $f->setQueryCacheImpl($b);
+        $f->setResultCacheImpl($c);
+        $f->setMetadataDriverImpl($e);
+        $f->setProxyDir('C:/wamp/www/SmartravelWeb/app/cache/dev/doctrine/orm/Proxies');
+        $f->setProxyNamespace('Proxies');
+        $f->setAutoGenerateProxyClasses(true);
+        $f->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
+        $f->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
+        $f->setNamingStrategy(new \Doctrine\ORM\Mapping\DefaultNamingStrategy());
+
+        $this->services['doctrine.orm.default_entity_manager'] = $instance = call_user_func(array('Doctrine\\ORM\\EntityManager', 'create'), $this->get('doctrine.dbal.default_connection'), $f);
 
         $this->get('doctrine.orm.default_manager_configurator')->configure($instance);
 
@@ -1375,7 +1381,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getLocaleListenerService()
     {
-        return $this->services['locale_listener'] = new \Symfony\Component\HttpKernel\EventListener\LocaleListener('en', $this->get('router', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('request_stack'));
+        return $this->services['locale_listener'] = new \Symfony\Component\HttpKernel\EventListener\LocaleListener('fr', $this->get('router', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('request_stack'));
     }
 
     /**
@@ -3441,14 +3447,14 @@ class appDevDebugProjectContainer extends Container
             'database_driver' => 'pdo_mysql',
             'database_host' => '127.0.0.1',
             'database_port' => NULL,
-            'database_name' => 'symfony',
+            'database_name' => 'smartravel',
             'database_user' => 'root',
             'database_password' => NULL,
             'mailer_transport' => 'smtp',
             'mailer_host' => '127.0.0.1',
             'mailer_user' => NULL,
             'mailer_password' => NULL,
-            'locale' => 'en',
+            'locale' => 'fr',
             'secret' => 'ThisTokenIsNotSoSecretChangeIt',
             'controller_resolver.class' => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver',
             'controller_name_converter.class' => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser',
@@ -3511,7 +3517,7 @@ class appDevDebugProjectContainer extends Container
             'kernel.trusted_proxies' => array(
 
             ),
-            'kernel.default_locale' => 'en',
+            'kernel.default_locale' => 'fr',
             'session.class' => 'Symfony\\Component\\HttpFoundation\\Session\\Session',
             'session.flashbag.class' => 'Symfony\\Component\\HttpFoundation\\Session\\Flash\\FlashBag',
             'session.attribute_bag.class' => 'Symfony\\Component\\HttpFoundation\\Session\\Attribute\\AttributeBag',

@@ -27,14 +27,14 @@
     <parameter key="database_driver">pdo_mysql</parameter>
     <parameter key="database_host">127.0.0.1</parameter>
     <parameter key="database_port">null</parameter>
-    <parameter key="database_name">symfony</parameter>
+    <parameter key="database_name">smartravel</parameter>
     <parameter key="database_user">root</parameter>
     <parameter key="database_password">null</parameter>
     <parameter key="mailer_transport">smtp</parameter>
     <parameter key="mailer_host">127.0.0.1</parameter>
     <parameter key="mailer_user">null</parameter>
     <parameter key="mailer_password">null</parameter>
-    <parameter key="locale">en</parameter>
+    <parameter key="locale">fr</parameter>
     <parameter key="secret">ThisTokenIsNotSoSecretChangeIt</parameter>
     <parameter key="controller_resolver.class">Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver</parameter>
     <parameter key="controller_name_converter.class">Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser</parameter>
@@ -93,7 +93,7 @@
     <parameter key="kernel.http_method_override">true</parameter>
     <parameter key="kernel.trusted_hosts" type="collection"/>
     <parameter key="kernel.trusted_proxies" type="collection"/>
-    <parameter key="kernel.default_locale">en</parameter>
+    <parameter key="kernel.default_locale">fr</parameter>
     <parameter key="session.class">Symfony\Component\HttpFoundation\Session\Session</parameter>
     <parameter key="session.flashbag.class">Symfony\Component\HttpFoundation\Session\Flash\FlashBag</parameter>
     <parameter key="session.attribute_bag.class">Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag</parameter>
@@ -582,7 +582,7 @@
     </service>
     <service id="locale_listener" class="Symfony\Component\HttpKernel\EventListener\LocaleListener">
       <tag name="kernel.event_subscriber"/>
-      <argument>en</argument>
+      <argument>fr</argument>
       <argument type="service" id="router" on-invalid="ignore"/>
       <argument type="service" id="request_stack"/>
     </service>
@@ -2247,7 +2247,7 @@
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">127.0.0.1</argument>
         <argument key="port">null</argument>
-        <argument key="dbname">symfony</argument>
+        <argument key="dbname">smartravel</argument>
         <argument key="user">root</argument>
         <argument key="password">null</argument>
         <argument key="charset">UTF8</argument>
@@ -2280,7 +2280,9 @@
           <argument type="service" id="service_container"/>
         </service>
       </argument>
-      <argument type="collection"/>
+      <argument type="collection">
+        <argument key="enum">string</argument>
+      </argument>
     </service>
     <service id="form.type_guesser.doctrine" class="Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser">
       <tag name="form.type_guesser"/>
@@ -2307,7 +2309,9 @@
       <argument type="service">
         <service class="Doctrine\ORM\Configuration" public="false">
           <call method="setEntityNamespaces">
-            <argument type="collection"/>
+            <argument type="collection">
+              <argument key="TravelAnnonceBundle">Travel\AnnonceBundle\Entity</argument>
+            </argument>
           </call>
           <call method="setMetadataCacheImpl">
             <argument type="service">
@@ -2338,7 +2342,21 @@
           </call>
           <call method="setMetadataDriverImpl">
             <argument type="service">
-              <service class="Doctrine\ORM\Mapping\Driver\DriverChain" public="false"/>
+              <service class="Doctrine\ORM\Mapping\Driver\DriverChain" public="false">
+                <call method="addDriver">
+                  <argument type="service">
+                    <service class="Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver" public="false">
+                      <argument type="collection">
+                        <argument key="C:\wamp\www\SmartravelWeb\src\Travel\AnnonceBundle\Resources\config\doctrine">Travel\AnnonceBundle\Entity</argument>
+                      </argument>
+                      <call method="setGlobalBasename">
+                        <argument>mapping</argument>
+                      </call>
+                    </service>
+                  </argument>
+                  <argument>Travel\AnnonceBundle\Entity</argument>
+                </call>
+              </service>
             </argument>
           </call>
           <call method="setProxyDir">

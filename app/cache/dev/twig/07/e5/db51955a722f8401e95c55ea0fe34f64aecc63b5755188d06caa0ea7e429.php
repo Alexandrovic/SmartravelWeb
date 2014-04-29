@@ -106,18 +106,12 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t  <li><a href=\"intro.html\">Intro 1</a></li>
 \t\t\t\t\t  <li><a href=\"intro2.html\">Intro 2 - slides</a></li>
 
-\t\t\t\t\t  <li class=\"dropdown-header\">Homepages</li>\t\t\t\t\t  
-\t\t\t\t\t  <li><a href=\"index.html\">Home 1 minimal</a></li>
-\t\t\t\t\t  <li><a href=\"index2.html\">Home 2 offers</a></li>
-\t\t\t\t\t  <li><a href=\"index3.html\">Home 3 full search</a></li>
-\t\t\t\t\t  <li><a href=\"index4.html\">Home 4 presentation</a></li>
-\t\t\t\t\t  <li><a href=\"index5.html\">Home 5 footer2</a></li>
-\t\t\t\t\t  <li><a href=\"index6.html\">Home 6 full</a></li>
-\t\t\t\t\t  <li><a href=\"index7.html\">Home 7 </a></li>
+\t\t\t\t\t\t\t\t  
+\t\t\t\t\t
 \t\t\t\t\t</ul>
 \t\t\t\t  </li>
 \t\t\t\t  <li class=\"dropdown\">
-\t\t\t\t\t<a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">Pages<b class=\"lightcaret mt-2\"></b></a>
+\t\t\t\t\t<a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">Annonces<b class=\"lightcaret mt-2\"></b></a>
 \t\t\t\t\t<ul class=\"dropdown-menu posright-0\">
 \t\t\t\t\t  <li><a href=\"list.html\">List page 1</a></li>
 \t\t\t\t\t  <li><a href=\"list2.html\">List page 2</a></li>
@@ -130,12 +124,11 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t</ul>
 \t\t\t\t  </li>
 \t\t\t\t  <li><a href=\"#\">Hotels</a></li>
-\t\t\t\t  <li><a href=\"#about\">Flights</a></li>
-\t\t\t\t  <li><a href=\"#contact\">Vacations</a></li>
-\t\t\t\t  <li><a href=\"#contact\">Cars</a></li>\t\t\t  
-\t\t\t\t  <li><a href=\"#contact\">Cruises</a></li>\t\t\t  
-\t\t\t\t  <li><a href=\"#contact\">Things to do</a></li>\t\t\t  
-\t\t\t\t  <li><a href=\"#contact\">Last minute</a></li>\t\t\t  
+\t\t\t\t  <li><a href=\"#contact\">Vacances</a></li>
+\t\t\t\t  <li><a href=\"#contact\">Voyage de Noce</a></li>
+  \t\t\t\t  <li><a href=\"#about\">Randonnée</a></li>
+\t\t\t\t  <li><a href=\"#contact\">Nos Souvenirs</a></li>\t\t\t  
+\t\t\t\t  <li><a href=\"#contact\">Forum</a></li>\t\t\t  
 \t\t\t\t  <li><a href=\"#contact\">Early booking</a></li>\t\t\t  
 \t\t\t\t  <li><a href=\"#contact\">Deals</a></li>\t\t\t  
 \t\t\t\t</ul>
@@ -295,7 +288,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 2</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom2 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom2()\" class=\"orange\"><img src=\"";
-        // line 254
+        // line 247
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -338,7 +331,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 3</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom3 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom3()\" class=\"orange\"><img src=\"";
-        // line 294
+        // line 287
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -529,7 +522,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 2</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom2 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom2()\" class=\"orange\"><img src=\"";
-        // line 482
+        // line 475
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -572,7 +565,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 3</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom3 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom3()\" class=\"orange\"><img src=\"";
-        // line 522
+        // line 515
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -914,7 +907,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 2</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom2 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom2()\" class=\"orange\"><img src=\"";
-        // line 861
+        // line 854
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -957,7 +950,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 3</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom3 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom3()\" class=\"orange\"><img src=\"";
-        // line 901
+        // line 894
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -1084,7 +1077,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 2</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom2 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom2()\" class=\"orange\"><img src=\"";
-        // line 1025
+        // line 1018
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -1127,7 +1120,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 3</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom3 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom3()\" class=\"orange\"><img src=\"";
-        // line 1065
+        // line 1058
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -1284,7 +1277,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 2</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom2 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom2()\" class=\"orange\"><img src=\"";
-        // line 1219
+        // line 1212
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -1327,7 +1320,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t\t<div class=\"wh90percent textleft\">
 \t\t\t\t\t\t\t\t\t\t\t<span class=\"opensans size13\"><b>ROOM 3</b></span><br/>
 \t\t\t\t\t\t\t\t\t\t\t<div class=\"addroom3 block grey\"><a href=\"#\" onclick=\"addroom3()\" class=\"grey\">+ Add room</a> | <a href=\"#\" onclick=\"removeroom3()\" class=\"orange\"><img src=\"";
-        // line 1259
+        // line 1252
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/delete.png"), "html", null, true);
         echo "\" alt=\"delete\"/></a></div>
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -1387,7 +1380,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t<!-- FADE -->
 \t\t\t\t\t\t\t\t\t<li data-transition=\"fade\" data-slotamount=\"1\" data-masterspeed=\"300\"> \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t<img src=\"";
-        // line 1316
+        // line 1309
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/slider/bahamas.jpg"), "html", null, true);
         echo "\" alt=\"\"/>
 \t\t\t\t\t\t\t\t\t\t<div class=\"tp-caption  sfl\"
@@ -1427,7 +1420,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t<!-- FADE -->
 \t\t\t\t\t\t\t\t\t<li data-transition=\"fade\" data-slotamount=\"1\" data-masterspeed=\"300\"> \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t<img src=\"";
-        // line 1353
+        // line 1346
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/slider/rome.jpg"), "html", null, true);
         echo "\" alt=\"\"/>
 \t\t\t\t\t\t\t\t\t\t<div class=\"tp-caption scrolleffect sft\"
@@ -1460,7 +1453,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t<li data-transition=\"fade\" data-slotamount=\"1\" data-masterspeed=\"300\"> \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t<img src=\"";
-        // line 1383
+        // line 1376
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/slider/paris.jpg"), "html", null, true);
         echo "\" alt=\"\"/>
 \t\t\t\t\t\t\t\t\t\t<div class=\"tp-caption scrolleffect sft\"
@@ -1492,7 +1485,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t<!-- FADE -->
 \t\t\t\t\t\t\t\t\t<li data-transition=\"fade\" data-slotamount=\"1\" data-masterspeed=\"300\"> \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t<img src=\"";
-        // line 1412
+        // line 1405
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/slider/zakynthos.jpg"), "html", null, true);
         echo "\" alt=\"\"/>
 \t\t\t\t\t\t\t\t\t\t<div class=\"tp-caption scrolleffect sft\"
@@ -1524,7 +1517,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t\t\t<!-- FADE -->
 \t\t\t\t\t\t\t\t\t<li data-transition=\"fade\" data-slotamount=\"1\" data-masterspeed=\"300\"> \t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t<img src=\"";
-        // line 1441
+        // line 1434
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/slider/santorini.jpg"), "html", null, true);
         echo "\" alt=\"\"/>
 \t\t\t\t\t\t\t\t\t\t<div class=\"tp-caption scrolleffect sft\"
@@ -1696,20 +1689,20 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t<div class=\"col-md-4\">
 \t\t\t\t\t\t<div class=\"lbl\">
 \t\t\t\t\t\t\t<a href=\"list4.html\"><img src=\"";
-        // line 1610
+        // line 1603
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/egypt-thumb.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"fwimg\"/></a>
 \t\t\t\t\t\t\t<div class=\"smallblacklabel\">Last Minute</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1614
+        // line 1607
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Diana Hotel</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1617
+        // line 1610
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-4.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1719,13 +1712,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1624
+        // line 1617
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Village Inn Studios & Family Apartments</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1627
+        // line 1620
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-3.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1735,13 +1728,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>\t
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1634
+        // line 1627
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Palatino Hotel</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1637
+        // line 1630
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-4.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1755,20 +1748,20 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t<div class=\"col-md-4\">
 \t\t\t\t\t\t<div class=\"lbl\">
 \t\t\t\t\t\t\t<a href=\"list4.html\"><img src=\"";
-        // line 1648
+        // line 1641
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/rome-thumb.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"fwimg\"/></a>
 \t\t\t\t\t\t\t<div class=\"smallblacklabel\">Early Booking</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1652
+        // line 1645
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Comfort Suites Paradise Island</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1655
+        // line 1648
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-4.png\""), "html", null, true);
         echo " alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Bahamas</span>
 \t\t\t\t\t\t\t</div>
@@ -1778,13 +1771,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1662
+        // line 1655
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Barcelo Malaga</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1665
+        // line 1658
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-3.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Spain</span>
 \t\t\t\t\t\t\t</div>
@@ -1794,13 +1787,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>\t
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1672
+        // line 1665
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Palatino Hotel</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1675
+        // line 1668
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-3.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1814,20 +1807,20 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t<div class=\"col-md-4\">
 \t\t\t\t\t\t<div class=\"lbl\">
 \t\t\t\t\t\t\t<a href=\"list4.html\"><img src=\"";
-        // line 1686
+        // line 1679
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/surfer-thumb.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"fwimg\"/></a>
 \t\t\t\t\t\t\t<div class=\"smallblacklabel\">Hot Deals</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1690
+        // line 1683
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Parayso Hotel And Spa</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1693
+        // line 1686
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-4.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1837,13 +1830,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1700
+        // line 1693
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Village Inn Studios & Family Apartments</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1703
+        // line 1696
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-3.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1853,13 +1846,13 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</div>\t
 \t\t\t\t\t\t<div class=\"deal\">
 \t\t\t\t\t\t\t<a href=\"details.html\"><img src=\"";
-        // line 1710
+        // line 1703
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-img.jpg"), "html", null, true);
         echo "\" alt=\"\" class=\"dealthumb\"/></a>
 \t\t\t\t\t\t\t<div class=\"dealtitle\">
 \t\t\t\t\t\t\t\t<p><a href=\"details.html\" class=\"dark\">Diana Hotel</a></p>
 \t\t\t\t\t\t\t\t<img src=\"";
-        // line 1713
+        // line 1706
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/smallrating-3.png"), "html", null, true);
         echo "\" alt=\"\" class=\"mt-10\"/><span class=\"size13 grey mt-9\">Zakynthos</span>
 \t\t\t\t\t\t\t</div>
@@ -1875,9 +1868,9 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t
 \t\t<div class=\"lastminute4\">
 \t\t\t ";
-        // line 1726
+        // line 1719
         $this->displayBlock('content', $context, $blocks);
-        // line 1729
+        // line 1722
         echo "\t\t</div>\t
 \t\t
 \t\t<div class=\"container cstyle06\">\t
@@ -1897,7 +1890,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t<ul id=\"foo\">
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1747
+        // line 1740
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-hawaii.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1907,7 +1900,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1754
+        // line 1747
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-santorini.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1917,7 +1910,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1761
+        // line 1754
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-dubai.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1927,7 +1920,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1768
+        // line 1761
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-hawaii.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1937,7 +1930,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1775
+        // line 1768
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-santorini.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1947,7 +1940,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list.html\"><img src=\"";
-        // line 1782
+        // line 1775
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-dubai.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1958,11 +1951,11 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</ul>
 \t\t\t\t\t\t<div class=\"clearfix\"></div>
 \t\t\t\t\t\t<a id=\"prev_btn\" class=\"prev\" href=\"#\"><img src=\"";
-        // line 1790
+        // line 1783
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/spacer.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<a id=\"next_btn\" class=\"next\" href=\"#\"><img src=\"";
-        // line 1791
+        // line 1784
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/spacer.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t</div>
@@ -1987,7 +1980,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t<ul id=\"foo2\">
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1813
+        // line 1806
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-africa.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -1997,7 +1990,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1820
+        // line 1813
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-egipt.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -2007,7 +2000,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1827
+        // line 1820
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-machupicchu.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -2017,7 +2010,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>\t
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1834
+        // line 1827
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-africa.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -2027,7 +2020,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1841
+        // line 1834
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-egipt.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -2037,7 +2030,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t<a href=\"list2.html\"><img src=\"";
-        // line 1848
+        // line 1841
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/thumb-machupicchu.jpg"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t\t\t<div class=\"m1\">
@@ -2048,11 +2041,11 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t\t</ul>
 \t\t\t\t\t\t<div class=\"clearfix\"></div>
 \t\t\t\t\t\t<a id=\"prev_btn2\" class=\"prev\" href=\"#\"><img src=\"";
-        // line 1856
+        // line 1849
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/spacer.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<a id=\"next_btn2\" class=\"next\" href=\"#\"><img src=\"";
-        // line 1857
+        // line 1850
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/spacer.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t</div>
@@ -2080,24 +2073,24 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t<span class=\"ftitle\">Let's socialize</span>
 \t\t\t\t\t<div class=\"scont\">
 \t\t\t\t\t\t<a href=\"#\" class=\"social1b\"><img src=\"";
-        // line 1882
+        // line 1875
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/icon-facebook.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<a href=\"#\" class=\"social2b\"><img src=\"";
-        // line 1883
+        // line 1876
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/icon-twitter.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<a href=\"#\" class=\"social3b\"><img src=\"";
-        // line 1884
+        // line 1877
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/icon-gplus.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<a href=\"#\" class=\"social4b\"><img src=\"";
-        // line 1885
+        // line 1878
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/icon-youtube.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t\t\t\t<br/><br/><br/>
 \t\t\t\t\t\t<img src=\"";
-        // line 1887
+        // line 1880
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/logosmal.png"), "html", null, true);
         echo "\" alt=\"\" /><br/>
 \t\t\t\t\t\t&copy; 2013  |  <a href=\"#\">Privacy Policy</a><br/>
@@ -2141,7 +2134,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t\t\t<div class=\"relative\">
 \t\t\t\t\t\t<input type=\"email\" class=\"form-control fccustom2\" id=\"exampleInputEmail1\" placeholder=\"Enter email\">
 \t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default btncustom\">Submit<img src=\"";
-        // line 1928
+        // line 1921
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/arrow.png"), "html", null, true);
         echo "\" alt=\"\"/></button>
 \t\t\t\t\t</div>
@@ -2169,7 +2162,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t\t\t<a href=\"#\">Blog</a> | 
 \t\t\t<a href=\"#\">Contact</a>
 \t\t\t<a href=\"#top\" class=\"gotop scroll\"><img src=\"";
-        // line 1953
+        // line 1946
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("images/spacer.png"), "html", null, true);
         echo "\" alt=\"\"/></a>
 \t\t\t</div>
@@ -2185,71 +2178,71 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 \t
     <!-- This page JS -->
 \t<script src=\"";
-        // line 1966
+        // line 1959
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/js-index7.js"), "html", null, true);
         echo "\"></script>\t
 \t
     <!-- Custom functions -->
     <script src=\"";
-        // line 1969
+        // line 1962
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/functions.js"), "html", null, true);
         echo "\"></script>
 \t
     <!-- Picker UI-->\t
 \t<script src=\"";
-        // line 1972
+        // line 1965
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/jquery-ui.js"), "html", null, true);
         echo "\"></script>\t\t
 \t
 \t<!-- Easing -->
     <script src=\"";
-        // line 1975
+        // line 1968
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/jquery.easing.js"), "html", null, true);
         echo "\"></script>
 \t
     <!-- jQuery KenBurn Slider  -->
     <script type=\"text/javascript\" src=\"";
-        // line 1978
+        // line 1971
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("rs-plugin/js/jquery.themepunch.revolution.min.js"), "html", null, true);
         echo "\"></script>
 \t
    <!-- Nicescroll  -->\t
 \t<script src=\"";
-        // line 1981
+        // line 1974
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/jquery.nicescroll.min.js"), "html", null, true);
         echo "\"></script>
 \t
     <!-- CarouFredSel -->
     <script src=\"";
-        // line 1984
+        // line 1977
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/jquery.carouFredSel-6.2.1-packed.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 1985
+        // line 1978
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/helper-plugins/jquery.touchSwipe.min.js"), "html", null, true);
         echo "\"></script>
 \t<script type=\"text/javascript\" src=\"";
-        // line 1986
+        // line 1979
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/helper-plugins/jquery.mousewheel.min.js"), "html", null, true);
         echo "\"></script>
 \t<script type=\"text/javascript\" src=\"";
-        // line 1987
+        // line 1980
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/helper-plugins/jquery.transit.min.js"), "html", null, true);
         echo "\"></script>
 \t<script type=\"text/javascript\" src=\"";
-        // line 1988
+        // line 1981
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"), "html", null, true);
         echo "\"></script>
 \t
     <!-- Custom Select -->
 \t<script type='text/javascript' src=\"";
-        // line 1991
+        // line 1984
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("assets/js/jquery.customSelect.js"), "html", null, true);
         echo "\"></script>\t
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src=\"";
-        // line 1994
+        // line 1987
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("dist/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script><script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-43203432-1', 'titanicthemes.com');  ga('send', 'pageview');</script>
   </body>
@@ -2257,7 +2250,7 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 ";
     }
 
-    // line 1726
+    // line 1719
     public function block_content($context, array $blocks = array())
     {
         echo "  
@@ -2277,6 +2270,6 @@ class __TwigTemplate_07e5db51955a722f8401e95c55ea0fe34f64aecc63b5755188d06caa0ea
 
     public function getDebugInfo()
     {
-        return array (  2261 => 1726,  2253 => 1994,  2247 => 1991,  2241 => 1988,  2237 => 1987,  2233 => 1986,  2229 => 1985,  2225 => 1984,  2219 => 1981,  2213 => 1978,  2207 => 1975,  2201 => 1972,  2195 => 1969,  2189 => 1966,  2173 => 1953,  2145 => 1928,  2101 => 1887,  2096 => 1885,  2092 => 1884,  2088 => 1883,  2084 => 1882,  2056 => 1857,  2052 => 1856,  2041 => 1848,  2031 => 1841,  2021 => 1834,  2011 => 1827,  2001 => 1820,  1991 => 1813,  1966 => 1791,  1962 => 1790,  1951 => 1782,  1941 => 1775,  1931 => 1768,  1921 => 1761,  1911 => 1754,  1901 => 1747,  1881 => 1729,  1879 => 1726,  1863 => 1713,  1857 => 1710,  1847 => 1703,  1841 => 1700,  1831 => 1693,  1825 => 1690,  1818 => 1686,  1804 => 1675,  1798 => 1672,  1788 => 1665,  1782 => 1662,  1772 => 1655,  1766 => 1652,  1759 => 1648,  1745 => 1637,  1739 => 1634,  1729 => 1627,  1723 => 1624,  1713 => 1617,  1707 => 1614,  1700 => 1610,  1528 => 1441,  1496 => 1412,  1464 => 1383,  1431 => 1353,  1391 => 1316,  1331 => 1259,  1288 => 1219,  1131 => 1065,  1088 => 1025,  961 => 901,  918 => 861,  576 => 522,  533 => 482,  342 => 294,  299 => 254,  97 => 55,  75 => 36,  69 => 33,  63 => 30,  59 => 29,  55 => 27,  51 => 25,  45 => 21,  40 => 13,  34 => 10,  30 => 9,  20 => 1,);
+        return array (  2254 => 1719,  2246 => 1987,  2240 => 1984,  2234 => 1981,  2230 => 1980,  2226 => 1979,  2222 => 1978,  2218 => 1977,  2212 => 1974,  2206 => 1971,  2200 => 1968,  2194 => 1965,  2188 => 1962,  2182 => 1959,  2166 => 1946,  2138 => 1921,  2094 => 1880,  2089 => 1878,  2085 => 1877,  2081 => 1876,  2077 => 1875,  2049 => 1850,  2045 => 1849,  2034 => 1841,  2024 => 1834,  2014 => 1827,  2004 => 1820,  1994 => 1813,  1984 => 1806,  1959 => 1784,  1955 => 1783,  1944 => 1775,  1934 => 1768,  1924 => 1761,  1914 => 1754,  1904 => 1747,  1894 => 1740,  1874 => 1722,  1872 => 1719,  1856 => 1706,  1850 => 1703,  1840 => 1696,  1834 => 1693,  1824 => 1686,  1818 => 1683,  1811 => 1679,  1797 => 1668,  1791 => 1665,  1781 => 1658,  1775 => 1655,  1765 => 1648,  1759 => 1645,  1752 => 1641,  1738 => 1630,  1732 => 1627,  1722 => 1620,  1716 => 1617,  1706 => 1610,  1700 => 1607,  1693 => 1603,  1521 => 1434,  1489 => 1405,  1457 => 1376,  1424 => 1346,  1384 => 1309,  1324 => 1252,  1281 => 1212,  1124 => 1058,  1081 => 1018,  954 => 894,  911 => 854,  569 => 515,  526 => 475,  335 => 287,  292 => 247,  97 => 55,  75 => 36,  69 => 33,  63 => 30,  59 => 29,  55 => 27,  51 => 25,  45 => 21,  40 => 13,  34 => 10,  30 => 9,  20 => 1,);
     }
 }
